@@ -1,0 +1,38 @@
+body{
+    margin: 50px;
+}
+
+.linkies {
+    background-color: darkcyan;
+}
+
+.spanny {
+    color: chartreuse;
+}
+
+.blocky {
+    background-color: lavender;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.block-1 {
+    background-color: rgb(162, 128, 194);
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+.block-2 {
+    position: absolute;
+}
+
+.block-3 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    /* usually we add high z index to fixed elements */
+    z-index: 100;
+}
