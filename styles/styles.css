@@ -3,5 +3,31 @@ body {
 }
 
 p{
-    background-color: rgb(203, 162, 241);
+    background-color: rgb(244, 234, 201);
+}
+
+strong{
+    color: rgb(119, 234, 234);
+    /* font-weight: bolder; */
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+footer{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h3{
+    background-color: rgb(192, 246, 228);
+}
+
+.internal-h3 {
+    background-color: rgb(235, 255, 196);
+}
+
+#header-section {
+    border: 1px solid black;
+    border-radius: 5px;
 }
