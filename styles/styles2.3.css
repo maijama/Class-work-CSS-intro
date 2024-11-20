@@ -1,0 +1,15 @@
+a {
+    background-color: lightcyan;
+    font-family: monospace;
+    /* border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: black; */
+}
+
+a:hover {
+    background-color: brown;
+    color: deeppink;
+}

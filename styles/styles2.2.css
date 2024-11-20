@@ -1,0 +1,47 @@
+body {
+    font-size: 26px;
+}
+
+header {
+    background-color: darkkhaki;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexbox-item {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(119, 200, 112);
+}
+
+@media (min-width: 576px) {
+    body {
+        font-size: 20px;
+    }
+    header {
+        background-color: lemonchiffon;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    header {
+        background-color: rgb(175, 244, 221);
+    }
+    footer {
+        background-color: rgb(226, 78, 108);
+    }
+}
